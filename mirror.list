@@ -1,3 +1,7 @@
+set base_path /var/spool/apt-mirror
+set nthreads 20
+set _tilde 0
+
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
 deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
 deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
